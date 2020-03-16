@@ -1,4 +1,4 @@
-# Linux & FreeBSD
+# Internet Notes
 
 * File Systems
   * [Directory Structure](file-systems/directory-structure.md)
