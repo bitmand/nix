@@ -14,6 +14,8 @@ Filesystem Hierarchy Standard Specification: http://refspecs.linuxfoundation.org
 
 *source: https://unix.stackexchange.com/questions/8656/usr-bin-vs-usr-local-bin-on-linux/8658#8658*
 
+There is also a very good explanation and history lesson by Rob Landley: http://lists.busybox.net/pipermail/busybox/2010-December/074114.html
+
 ## Command Line
 
 A complete and detailed list is also available directly at the command line: `man hier`
