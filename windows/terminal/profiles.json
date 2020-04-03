@@ -1,0 +1,35 @@
+// NOTICE: This is not a full configuration!
+// Only parts of profiles.json is included and it should not be directly copy/pasted.
+
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+{
+    // Global Settings
+    "copyOnSelect": true,
+
+    // Default Profile
+    "profiles":
+    {
+        "defaults":
+        {
+            "colorScheme": "Espresso",
+            "cursorShape": "underscore"
+        }
+    },
+
+    // Personal custom keybindings
+    "keybindings": [
+        { "command": "newTab", "keys": "alt+½" },
+        { "command": { "action": "switchToTab", "index": 0 }, "keys": "alt+1" },
+        { "command": { "action": "switchToTab", "index": 1 }, "keys": "alt+2" },
+        { "command": { "action": "switchToTab", "index": 2 }, "keys": "alt+3" },
+        { "command": { "action": "switchToTab", "index": 3 }, "keys": "alt+4" },
+        { "command": { "action": "switchToTab", "index": 4 }, "keys": "alt+5" },
+        { "command": { "action": "switchToTab", "index": 5 }, "keys": "alt+6" },
+        { "command": { "action": "switchToTab", "index": 6 }, "keys": "alt+7" },
+        { "command": { "action": "switchToTab", "index": 7 }, "keys": "alt+8" },
+        { "command": { "action": "switchToTab", "index": 8 }, "keys": "alt+9" },
+        { "command": "paste", "keys": "shift+delete" }
+    ]
+}
+
