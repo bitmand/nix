@@ -6,7 +6,9 @@
 ## Color Schemes
 
 > Over 200 terminal color schemes/themes for iTerm/iTerm2.
+>
 > Includes ports to Terminal, Konsole, PuTTY, Xresources, XRDB, Remmina, Termite, XFCE, Tilda, FreeBSD VT, Terminator, Kitty, MobaXterm, LXTerminal, Microsoft's Windows Terminal, Visual Studio.
+>
 > https://iterm2colorschemes.com / https://github.com/mbadolato/iTerm2-Color-Schemes
 
 * Example Screenshots: https://github.com/mbadolato/iTerm2-Color-Schemes#screenshots
@@ -16,8 +18,8 @@
 
 Run the color example scripts to display the 16 colors and an example colorized git commit output in your terminal.
 
-Bash: [color-example-bash](color-example-bash))
-Powershell / Command Prompt: [color-example.bat](color-example.bat)
+* Bash: [color-example-bash](color-example-bash))
+* Powershell / Command Prompt: [color-example.bat](color-example.bat)
 
 ## Personal Configuration
 
@@ -46,4 +48,3 @@ My customized color scheme:
         "background": "#111111",
         "foreground": "#d0d0d0"
     }
-
