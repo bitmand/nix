@@ -1,0 +1,54 @@
+#!/usr/bin/env bash
+
+echo
+printf "30 Black:         \033[0;30mThe Black Color\033[0m\n"
+printf "31 Red:           \033[0;31mThe Red Color\033[0m\n"
+printf "32 Green:         \033[0;32mThe Green Color\033[0m\n"
+printf "33 Yellow:        \033[0;33mThe Yellow Color\033[0m\n"
+printf "34 Blue:          \033[0;34mThe Blue Color\033[0m\n"
+printf "35 Magenta:       \033[0;35mThe Magenta Color\033[0m\n"
+printf "36 Cyan:          \033[0;36mThe Cyan Color\033[0m\n"
+printf "37 White:         \033[0;37mThe White Color\033[0m\n"
+echo
+printf "90 Light Black:   \033[1;30mThe Light Black Color\033[0m\n"
+printf "91 Light Red:     \033[1;31mThe Light Red Color\033[0m\n"
+printf "92 Light Green:   \033[1;32mThe Light Green Color\033[0m\n"
+printf "93 Light Yellow:  \033[1;33mThe Light Yellow Color\033[0m\n"
+printf "94 Light Blue:    \033[1;34mThe Light Blue Color\033[0m\n"
+printf "95 Light Magenta: \033[1;35mThe Light Magenta Color\033[0m\n"
+printf "96 Light Cyan:    \033[1;36mThe Light Cyan Color\033[0m\n"
+printf "97 Light White:   \033[1;37mThe Light White Color\033[0m\n"
+
+echo
+
+printf "\033[0;33mColorized example git commit message\n"
+echo
+printf "\033[0mYou can add a more lengthy and descriptive text here.\n"
+printf "\033[0;34m# Please enter the commit message for your changes. Lines starting\n"
+printf "# with '#' will be ignored, and an empty message aborts the commit.\n"
+printf "#\n"
+printf "# On branch \033[0;35mmaster\n"
+printf "\033[0;34m# Your branch is ahead of '\033[0;35morigin/master\033[0;34m' by 1 commit.\n"
+printf "#   (use \"git push\" to publish your local commits)\n"
+printf "#\n"
+printf "# \033[0;35mChanges to be committed:\n"
+printf "\033[0;34m# \033[0;32mmodified\033[0;34m:   \033[0;31mREADME.md\n"
+printf "\033[0;34m# \033[0;32mmodified\033[0;34m:   \033[0;31mprofiles.json\n"
+printf "\033[0;34m#\n"
+printf "# ------------------------ >8 ------------------------\n"
+printf "# Do not modify or remove the line above.\n"
+printf "# Everything below it will be ignored.\n"
+printf "\033[0;32mdiff --git a/windows/terminal/README.md b/windows/terminal/README.md\n"
+printf "\033[0;35mindex 3af86b0..e61c07a 100644\n"
+printf "\033[0;32m--- a/windows/terminal/README.md\n"
+printf "\033[0;32m+++ b/windows/terminal/README.md\n"
+printf "\033[0;33m@@ -5,7 +5,14 @@\n"
+echo
+printf "\033[0;0m ## Configuration\n"
+echo
+printf "\033[0;35m-* Personal [profiles.json](profiles.json)\n"
+printf "\033[0;36m+* Personal changes to [profiles.json](profiles.json)\n"
+printf "\033[0;36m+\n"
+printf "\033[0;0m ## Color Schemes\n"
+printf "\033[0m\n"
+

@@ -3,36 +3,47 @@
 * Github: https://github.com/microsoft/terminal
 * Announcement: https://devblogs.microsoft.com/commandline/introducing-windows-terminal/
 
-## Configuration
-
-* Personal [profiles.json](profiles.json)
-
 ## Color Schemes
 
-* [Espresso](#espresso)
+> Over 200 terminal color schemes/themes for iTerm/iTerm2.
+> Includes ports to Terminal, Konsole, PuTTY, Xresources, XRDB, Remmina, Termite, XFCE, Tilda, FreeBSD VT, Terminator, Kitty, MobaXterm, LXTerminal, Microsoft's Windows Terminal, Visual Studio.
+> https://iterm2colorschemes.com / https://github.com/mbadolato/iTerm2-Color-Schemes
 
-### Espresso
+* Example Screenshots: https://github.com/mbadolato/iTerm2-Color-Schemes#screenshots
+* Windows Terminal: https://github.com/mbadolato/iTerm2-Color-Schemes/tree/master/windowsterminal
 
-    # FIXME: Colors still copy of Campbell!
+## Color Testing
+
+Run the color example scripts to display the 16 colors and an example colorized git commit output in your terminal.
+
+Bash: [color-example-bash](color-example-bash))
+Powershell / Command Prompt: [color-example.bat](color-example.bat)
+
+## Personal Configuration
+
+My configuration changes: [profiles.json](profiles.json)
+
+My customized color scheme:
+
     {
-        "name": "Espresso",
-        "foreground": "#CCCCCC",
-        "background": "#0C0C0C",
-        "black": "#0C0C0C",
-        "red": "#C50F1F",
-        "green": "#13A10E",
-        "yellow": "#C19C00",
-        "blue": "#0037DA",
-        "purple": "#881798",
-        "cyan": "#3A96DD",
-        "white": "#CCCCCC",
-        "brightBlack": "#767676",
-        "brightRed": "#E74856",
-        "brightGreen": "#16C60C",
-        "brightYellow": "#F9F1A5",
-        "brightBlue": "#3B78FF",
-        "brightPurple": "#B4009E",
-        "brightCyan": "#61D6D6",
-        "brightWhite": "#F2F2F2"
+        "name": "Bitmand",
+        "black": "#000000",
+        "red": "#c23a3c",
+        "green": "#378f3e",
+        "yellow": "#e6aa49",
+        "blue": "#447fac",
+        "purple": "#993c7c",
+        "cyan": "#4bc0b6",
+        "white": "#d0d0d0",
+        "brightBlack": "#505050",
+        "brightRed": "#c23a3c",
+        "brightGreen": "#378f3e",
+        "brightYellow": "#e6aa49",
+        "brightBlue": "#447fac",
+        "brightPurple": "#993c7c",
+        "brightCyan": "#4bc0b6",
+        "brightWhite": "#f5f5f5",
+        "background": "#111111",
+        "foreground": "#d0d0d0"
     }
 
