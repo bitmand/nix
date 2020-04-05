@@ -21,11 +21,13 @@ Run the color example scripts to display the 16 colors and an example colorized 
 * Bash: [color-example-bash](color-example-bash))
 * Powershell / Command Prompt: [color-example.bat](color-example.bat)
 
-## Personal Configuration
+## Bitmand Configuration
 
-My configuration changes: [profiles.json](profiles.json)
+My personal configuration: [profiles.json](profiles.json)
 
-My customized color scheme:
+## Color Scheme Bitmand
+
+My own personal color scheme:
 
     {
         "name": "Bitmand",
