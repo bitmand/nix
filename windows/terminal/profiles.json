@@ -15,6 +15,10 @@
         {
             "colorScheme": "Bitmand",
             "cursorShape": "underscore"
+            "fontFace": "Consolas",
+            "fontSize": 12,
+            "padding": "12, 8, 12, 8",
+            "snapOnInput": false
         }
     },
 
