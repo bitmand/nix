@@ -19,3 +19,19 @@ Bash-like tab completion:
 Exit PowerShell on CTRL+D:
 
     Set-PSReadlineKeyHandler -Key Ctrl+d -Function DeleteCharOrExit
+
+## Execution Policy
+
+PowerShell scripts are not allowed to run, due to default [execution policy](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies)
+
+Show current policy:
+
+    Get-ExecutionPolicy
+
+List policies:
+
+    Get-ExecutionPolicy -List
+
+Set to unrestricted for current user:
+
+    Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
