@@ -22,7 +22,33 @@
         }
     },
 
-    // Personal custom keybindings
+    // Personal custom color scheme: Bitmand
+    "schemes": [
+        {
+            "name": "Bitmand",
+            "black": "#000000",
+            "red": "#c23a3c",
+            "green": "#378f3e",
+            "yellow": "#e6aa49",
+            "blue": "#447fac",
+            "purple": "#993c7c",
+            "cyan": "#4bc0b6",
+            "white": "#d0d0d0",
+            "brightBlack": "#505050",
+            "brightRed": "#c23a3c",
+            "brightGreen": "#378f3e",
+            "brightYellow": "#e6aa49",
+            "brightBlue": "#447fac",
+            "brightPurple": "#993c7c",
+            "brightCyan": "#4bc0b6",
+            "brightWhite": "#f5f5f5",
+            "background": "#111111",
+            "foreground": "#d0d0d0"
+        }
+    ],
+
+    // Personal custom keybindings, optimized for the R-Go Compact keyboard
+    // https://www.r-go-tools.com/products/ergonomic-keyboards/r-go-compact/
     "keybindings": [
         { "command": "newTab", "keys": "alt+½" },
         { "command": { "action": "switchToTab", "index": 0 }, "keys": "alt+1" },
