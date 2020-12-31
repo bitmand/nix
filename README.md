@@ -1,7 +1,7 @@
 # Internet Notes
 
 * File Systems
-  * [Directory Structure](file-systems/directory-structure.md)
+  * [Linux Directory Structure](https://bitmand.dk/workbench/operating-systems#linux)
 * Networking
   * [Network Cheat Sheet](https://bitmand.dk/workbench/networking)
 * Windows
