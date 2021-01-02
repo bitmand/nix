@@ -5,6 +5,6 @@
 * Networking
   * [Network Cheat Sheet](https://bitmand.dk/workbench/networking)
 * Windows
-  * [PowerShell](windows/powershell/README.md)
+  * [PowerShell](https://bitmand.dk/workbench/operating-systems#windows)
   * [Windows Terminal](windows/terminal/README.md)
 
